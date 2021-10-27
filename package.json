@@ -4,7 +4,12 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "@material/banner": "^13.0.0",
     "@material/button": "^13.0.0",
+    "@material/dialog": "^13.0.0",
+    "@material/icon-button": "^13.0.0",
+    "@material/textfield": "^6.0.0",
+    "@material/top-app-bar": "^13.0.0",
     "material-components-web": "^13.0.0"
   },
   "devDependencies": {
@@ -24,6 +29,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "start": "webpack serve"
   },
   "author": "",
